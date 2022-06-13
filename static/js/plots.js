@@ -145,18 +145,13 @@ function buildCharts(sample) {
         mode: "gauge+number",
         gauge: {
           axis: { range: [0, 10] },
-          bar: {color: "lightblue"},
+          bar: {color: "black"},
           steps: [
-            { range: [0, 1], color: "#990000" },
-            { range: [1, 2], color: "#CC0000" },
-            { range: [2, 3], color: "#FF8000" },
-            { range: [3, 4], color: "#FFB266" },
-            { range: [4, 5], color: "#FFFF66" },
-            { range: [5, 6], color: "#FFFF99" },
-            { range: [6, 7], color: "#CCFF99" },
-            { range: [7, 8], color: "#66FF66" },
-            { range: [8, 9], color: "#00CC00" },
-            { range: [9, 10], color: "#009900" },
+            { range: [0, 2], color: "red" },
+            { range: [2, 4], color: "orange" },
+            { range: [4, 6], color: "yellow" },
+            { range: [6, 8], color: "#66CC00" },
+            { range: [8, 10], color: "#009900" },
           ],
         }
       }
